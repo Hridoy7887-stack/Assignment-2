@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
  
 /* shared styles */
 
@@ -9,11 +11,24 @@
   font-weight: 400;
   font-style: normal;
 }
+.raleway-font{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .bg-primary{
     background-image:url('./assets/bg.png');
     background-repeat:repeat-x;
     /* background-color: #0073e65b; */
 }
+.curriculum-btn{
+    font-size: 0.943rem;
+    font-weight: bold;
+    line-height: 28px;
+}
+     
 
 
 
@@ -152,6 +167,108 @@ margin: 0px;
     margin: 0px auto 60px auto;
 }
 
+/* Curriculum section styles */
+.curriculum-info{
+text-align: center;
+margin: 122px auto 80px auto;
+}
+.curriculum-info-title{
+    font-size: 2.875rem;
+    font-weight: bold;
+    line-height: 57.5px;
+    color: #000000;
+
+}
+.curriculum-item-1{
+    width: 368px;
+    /* height: 477px; */
+    border-radius: 18.86px;
+background: linear-gradient(to bottom , #DEF5FF,#FFFFFF);
+box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.curriculum-image-1{
+    width: 137px;
+    height: 137px;
+    margin: 52px auto 32px auto;
+}
+.curriculum-title-1{
+font-size: 1.532rem;
+font-weight: bold;
+line-height: 30px;
+color: #202020;
+margin: 0px auto 32px auto;
+}
+.curriculum-description{
+    font-size: 0.943rem;
+    font-weight: 500;
+    line-height: 28px;
+color: #808080;
+}
+.btn-first{
+    color: #64C8FF;
+    
+}
+    
+ 
+
+.curriculum-item-2{
+    width: 368px;
+    /* height: 482px; */
+    border-radius: 18.86px;
+background: linear-gradient(to bottom , #FFF4DC, #FFFFFF);
+box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.curriculum-image-2{
+    width: 142px;
+    height: 142px;
+    margin: 52px auto 32px auto;
+}
+.curriculum-title-2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+    color: #202020;
+    margin: 0px auto 32px auto;
+    }
+    .btn-second{
+        color: #F0AA00;
+    }
+
+.curriculum-item-3{
+    width: 368px;
+    /* height: 477px; */
+    text-align: center;
+    border-radius: 18.86px;
+background: linear-gradient(to bottom , #F2E8FF, #FFFFFF);
+box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.curriculum-image-3{
+    width: 137px;
+    height: 137px;
+    margin: 52px auto 32px auto;
+}
+.curriculum-title-3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+    color: #202020;
+    margin: 0px auto 32px auto;
+    }
+    .btn-third{
+        color: #8700FF;
+    }
+.curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1160px;
+    margin: 80px auto;
+    text-align: center;
+    justify-items: center;
+     
+}
+
+
 
 /* responsive for small device */
  @media screen and (max-width: 576px) {
@@ -202,6 +319,58 @@ justify-content:space-between;
         font-weight: bold;
         line-height: 30px;
         padding: 6px 24px;
+     }
+     /* curriculum-section */
+     .curriculum-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px auto;
+        gap: 12.3px;
+     }
+     .curriculum-item-1,.curriculum-item-2,.curriculum-item-3{
+       border-radius: 12.77px;
+       box-shadow: 0px 0px 19.16px 0.64px rgba(0, 0, 0, 0.05);
+        width: 357px;
+     }
+     .curriculum-info-title{
+        font-size: 1.625rem;
+        font-weight: bold;
+        margin: 0px;
+     }
+     .curriculum-info{
+        margin: 0px;
+     }
+     .curriculum-image-1{
+        width: 93px;
+        height: 93px;
+        margin: 36px auto 0px auto;
+     }
+     .curriculum-image-2{
+        width: 96px;
+        height: 96px;
+        margin: 36px auto 0px auto;
+     }
+     .curriculum-image-3{
+        width: 85px;
+        height: 85px;
+        margin: 36px auto 0px auto;
+     }
+     .curriculum-title-1, .curriculum-title-2, .curriculum-title-3{
+        font-size: 1.03rem;
+        font-weight: bold;
+        line-height: 20.8px;
+        margin: 22px auto;
+     }
+     .curriculum-description{
+        font-size: 0.638rem;
+        font-weight: 500;
+        line-height: 19.2px;
+        margin: 0px auto 22px auto;
+     }
+     .curriculum-btn{
+        font-size: 0.638rem;
+        font-weight: bold;
+        line-height: 19.2px;
+        margin: 0px auto 36px auto;
      }
       
  }
