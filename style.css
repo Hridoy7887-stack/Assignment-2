@@ -25,6 +25,7 @@
     max-width: 1160px;
     margin: 20px auto;
     background-color: #FFFFFF;
+    border:none;
 }
 .nav-links{
     
@@ -98,6 +99,12 @@ li>a{
     color: #5D58EF;
     line-height: 30px;
 }
+  .nav-icon{
+      font-size: 2rem;
+      display: none;
+    }
+     
+       
 /* banar-section styles */
 .banar-title{
 font-size: 3.5rem;
@@ -131,9 +138,10 @@ margin: 0px;
     border-radius: 12px;
 }
 .banar-item-right{
-    width: 468px;
-    height: 575px;
+    max-width: 468px;
+    /* height: 575px; */
 }
+ 
 .banar-container{
     display: flex;
     max-width: 1160px;
@@ -143,5 +151,58 @@ margin: 0px;
     gap: 50px;
     margin: 0px auto 60px auto;
 }
- 
+
+
+/* responsive for small device */
+ @media screen and (max-width: 576px) {
+    /* navbar-section */
+    .navbar-container{
+        padding: 12px ;
+justify-content:space-between;
+ border-bottom:1px solid #FEA301;
+
+    }
+    .nav-links, .nav-school,.btn-primary{
+        display: none;
+    }
+    .nav-icon{
+        display: initial;
+        margin-right: 20px;
+    }
+    .nav-logo{
+        margin-left: -120px;
+    }
+    /* banar-section */
+     .banar-container{
+        flex-direction: column-reverse;
+    text-align: center;
+    gap: 0px;
+    padding: 0px;
+     
+    
+     }
+     .banar-title{
+        line-height: normal;
+        font-size: 2rem;
+        font-weight: bold;
+         
+     }
+     .banar-description{
+        font-size: 0.875rem;
+        font-weight: 500;
+     }
+     .banar-img{
+        width: 100%;
+        margin-bottom: 0px;
+     }
+     .btn-banar{
+        width: 155px;
+        height: 54px;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 30px;
+        padding: 6px 24px;
+     }
+      
+ }
 
