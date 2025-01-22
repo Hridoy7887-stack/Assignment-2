@@ -352,7 +352,7 @@ li>a {
     line-height: 38.3px;
     color: #000000;
     text-align: left;
-    margin: 61px 100px 52px 39px;
+    margin: 0px 100px 48px 39px;
 }
 
 .stories-description {
@@ -388,7 +388,7 @@ li>a {
     font-weight: bold;
     line-height: 28.8px;
     color: #000000;
-    margin: 19px 38px 28px 38px;
+    margin: 0px 38px 28px 38px;
 }
 
 .btn-div {
@@ -411,6 +411,73 @@ li>a {
     line-height: 30px;
     margin-bottom: 60px;
 }
+.btn-stories-1{
+    width: 174px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    font-size: 0.958rem;
+    font-weight: 500;
+    line-height: 29px;
+     margin-left: 38px;
+     border: none;
+    }
+    .btn-blue{
+        position: relative;
+        top: -27px;
+    }
+    .btn-stories-2{
+        width: 174px;
+    height: 39px;
+    border-radius: 48px;
+    background-color: #95B226;
+    color: #FFFFFF;
+    font-size: 0.958rem;
+    font-weight: 500;
+    line-height: 29px;
+     margin-left: 38px;
+     border: none;
+    }
+    .btn-stories-3{
+        width: 174px;
+        height: 39px;
+        border-radius: 48px;
+        background-color: #5D58F0;
+        color: #FFFFFF;
+        font-size: 0.958rem;
+        font-weight: 500;
+        line-height: 29px;
+         margin-left: 38px;
+         border: none;
+    }
+    .btn-stories-4{
+        width: 174px;
+        height: 39px;
+        border-radius: 48px;
+        background-color: #95B226;
+        color: #FFFFFF;
+        font-size: 0.958rem;
+        font-weight: 500;
+        line-height: 29px;
+         margin-left: 38px;
+         border: none;
+    }
+    .btn-stories-5{
+        width: 128px;
+        height: 39px;
+        border-radius: 48px;
+        background-color: #95B226;
+        color: #FFFFFF;
+        font-size: 0.958rem;
+        font-weight: 500;
+        line-height: 29px;
+         margin-left: 38px;
+         border: none;
+    }
+    
+    
+
 
 /* footer section */
 .footer-container{
@@ -636,19 +703,19 @@ max-width: 100%;
     }
 
     .title-2 {
-        margin: 25px 42px 20px 22px;
+        margin: 0px 42px 20px 22px;
     }
 
     .title-3 {
-        margin: 22px 23px 17px 22px;
+        margin: 0px 23px 17px 22px;
     }
 
     .title-4 {
-        margin: 20px 23px 17px 22px;
+        margin: 0px 23px 17px 22px;
     }
 
     .title-5 {
-        margin: 20px 23px 17px 22px;
+        margin: 0px 23px 17px 22px;
     }
 
     .stories-info-title {
@@ -675,6 +742,20 @@ max-width: 100%;
         font-weight: bold;
         line-height: 30px;
         margin: 20px auto 40px auto;
+    }
+    .btn-stories-2, .btn-stories-3, .btn-stories-4, .btn-stories-5{
+        width: 104px;
+        height: 23px;
+        border: none;
+        border-radius: 29px;
+        margin-left: 22px;
+        font-size: 0.570rem;
+        font-weight: 500;
+        line-height: 17px;
+    }
+    .btn-blue{
+        position: relative;
+        top: -18px;
     }
      
      /* footer section */
