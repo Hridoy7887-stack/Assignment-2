@@ -18,6 +18,9 @@
     font-weight: 400;
     font-style: normal;
 }
+.bg-third{
+    background-color: #01ACFD;
+}
 
 .bg-primary {
     background-image: url('./assets/bg.png');
@@ -409,8 +412,63 @@ li>a {
     margin-bottom: 60px;
 }
 
-
-
+/* footer section */
+.footer-container{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #01ACFD; 
+    margin: 0px auto;
+     
+     
+     
+}
+.logo-part{
+    display: flex;
+    
+    gap: 10px;
+    margin-top: 123px;
+    margin-bottom:35px ;
+    
+    
+}
+.logo-image{
+    width: 82px;
+    height: 81px;
+    position: relative;
+    left: -10px;
+}
+.footer-title{
+    font-size: 2.633rem;
+    font-weight: bold;
+    line-height: 39.5px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.footer-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0px auto 179px auto;
+}
+ .footer-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 123px auto 32px auto;
+ }
+ .footer-nav{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+ }
+ .footer-item-1{
+    margin-left: 150px;
+ }
+ .footer-item-2{
+    margin-left: 150px;
+ }
 
 
 /* responsive for small device */
@@ -619,6 +677,61 @@ max-width: 100%;
         margin: 20px auto 40px auto;
     }
      
+     /* footer section */
+.footer-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+.footer-item-1{
+margin-left: 16px;
+margin-top: 65px;
+}
+.footer-item-2{
+     margin-left: 20px; 
      
+    }
+    
+.footer-item-3{
+    margin-left: 20px;
+}
+.logo-image{
+width: 70px;
+height: 70px;
+}
+.footer-title{
+    font-size: 2.23rem;
+    font-weight: bold;
+    line-height: 33.5px;
+}
+.footer-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-card-title{
+    font-size: 1.271rem;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footer-nav{
+    font-size: 1.06rem;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.social-links img{
+     width: 34px ;
+     height: 34px;
+     margin-bottom: 50px;
+     
+}
+.logo-part{
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+.footer-description{
+    margin-bottom: 32px;
+}
+
+    
+
 
 }
