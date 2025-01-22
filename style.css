@@ -3,6 +3,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/* marquee styles */
+.marquee {
+    width: 100%;
+    color: #5D58EF;
+    font-size: 0.7rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 5s ease-in infinite;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+
 /* shared styles */
 
 .quicksand-font {
@@ -46,7 +69,7 @@
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1160px;
+    max-width: 1180px;
     margin: 20px auto;
     background-color: #FFFFFF;
     border: none;
@@ -306,6 +329,42 @@ li>a {
     justify-items: center;
 
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.circle{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   border: none;
+   background-color: #FEA301;
+   border-radius: 30px;
+}
+   
+    
+  
+.arrow{
+    
+   
+   
+    
+     text-align:center;
+    line-height: 24px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bara{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
 
 /* stories section */
 .stories-info {
@@ -405,6 +464,7 @@ li>a {
     background-color: #111111;
     color: #FFFFFF;
     padding: 10px 10px;
+    border: none;
     border-radius: 12px;
     font-size: 1.25rem;
     font-weight: bold;
@@ -664,6 +724,9 @@ li>a {
         font-weight: bold;
         line-height: 19.2px;
         margin: 0px auto 36px auto;
+    }
+    .center{
+        display: none;
     }
 
     /* stories section */
